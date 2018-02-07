@@ -134,7 +134,8 @@ int main()
 						cells[goalCell].type = GOAL;
 						searchPath = true;
 						cellsChecked = 0;
-						sf::Clock timer;
+						
+						timer.restart();
 						 
 					}	
 				}
